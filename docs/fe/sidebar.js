@@ -34,6 +34,13 @@ export default [
       { text: "Vue3", link: "/fe/vue/vue3" },
     ],
   },
+  {
+    text: "Webpack5",
+    collapsed: true,
+    items: [
+      { text: "webpack 基本指令", link: "/fe/webpack/webpack-basis-order" },
+    ],
+  },
   // {
   //   text: 'React',
   //   collapsed: true,

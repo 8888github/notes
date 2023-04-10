@@ -20,6 +20,13 @@ export default [
           // { text: "React", link: "/fe/react/react_basis" },
         ],
       },
+      {
+        text: "打包工具",
+        items: [
+          { text: "webpack 基本指令", link: "/fe/webpack/webpack-basis-order" },
+          { text: "有道翻译", link: "https://fanyi.youdao.com/index.html#/" },
+        ],
+      },
       // {
       //   text: "其它",
       //   items: [
