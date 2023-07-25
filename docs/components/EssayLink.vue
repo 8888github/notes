@@ -4,9 +4,9 @@
 <template></template>
 
 <script>
-import cardFun from '../utils/index';
-import { watch } from 'vue';
-import { useRoute } from 'vitepress'
+import cardFun from "../utils/index";
+import { watch } from "vue";
+import { useRoute } from "vitepress";
 
 export default {
   name: "EssayLink",
@@ -16,8 +16,11 @@ export default {
      * 监听路由变化，当路由发生变化时，调用cardFun函数生成卡片链接
      * 保证切换页面都能生成卡片链接
      */
-    watch(route, () => cardFun(window.document), { immediate: true, deep: true })
-  }
+    watch(route, () => cardFun(window.document), {
+      immediate: true,
+      deep: true,
+    });
+  },
 };
 </script>
 
