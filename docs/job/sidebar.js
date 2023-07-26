@@ -5,6 +5,7 @@ export default [
     items: [
       { text: "微信支付", link: "/job/uni-app/wechat-pay" },
       { text: "支付宝支付", link: "/job/uni-app/alipay-pay" },
+      { text: "微信And支付宝(封装)", link: "/job/uni-app/wechat-alipay-pay" },
     ],
   },
   // {

@@ -64,8 +64,8 @@ export default {
     },
     // 设置编辑页面链接
     editLink: {
-      pattern: "https://github.com/BruceCQM/beiChen",
-      text: "Edit this page on GitHub",
+      pattern: "https://github1s.com/beichen-lww/notes",
+      text: "在线修改",
     },
     // 设置上下篇文字
     docFooter: {
