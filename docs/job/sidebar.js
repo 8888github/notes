@@ -9,6 +9,11 @@ export default [
       { text: "Axios(封装)", link: "/job/request/axios" },
     ],
   },
+  {
+    text: "项目优化",
+    collapsed: true,
+    items: [{ text: "打包优化", link: "/job/optimize/project" }],
+  },
   // {
   //   text: "JavaScript",
   //   collapsed: true,
